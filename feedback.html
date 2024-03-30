@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback - Zayeds Guitar</title>
+    <title>Feedback - Zayed</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,24 +15,39 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="feedback.html">Feedback</a></li>
                 <li><a href="support.html">Support</a></li>
-                <li><a href="corporate.html">Corporate Info</a></li>
+                <li><a href="corporate.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="feedback">
-            <h2>Feedback</h2>
-            <form>
-                <label for="feedback">Your Feedback:</label><br>
-                <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
-                <button type="submit">Submit</button>
+        <div class="main_page_background">
+            <p>We highly value your insights and experiences. Your feedback is crucial in helping us improve and tailor our services to better meet your needs. Please share your thoughts or suggestions regarding our website, services, or any aspect of your interaction with us. We're all ears!</p>
+        </div>
+
+        <div class="profile-pic-container">
+            <img src="Content/github profile pic.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="feedback-container">
+            <form action="submit-feedback.php" method="post">
+                <textarea name="feedback" placeholder="Enter your feedback here..." required></textarea>
+                <button type="submit">Submit Feedback</button>
             </form>
-        </section>
+        </div>
+        
+        <nav>
+            <ul>
+                <li class="artstation"><a href="https://www.artstation.com/zayedshuvo"><img src="Content/Art station .jpg" alt=""></a></li>
+                <li class="linkedin"><a href="https://www.linkedin.com/in/zayedsajed/"><img src="Content/linkedin.jpg" alt=""></a></li>
+                <li class="github"><a href="https://github.com/MD-Zayed-Al-Sajed"><img src="Content/Github.jpg" alt=""></a></li>
+                <li class="instagram"><a href="https://www.instagram.com/zayed_shuvo_?igsh=d2dnODMwNnh2N3Bp&utm_source=qr"><img src="Content/instagram.jpg" alt=""></a></li>
+                
+            </ul>
+        </nav>
     </main>
 
     <footer>
-        <p>&copy; 2024 Zayeds Guitar. All rights reserved.</p>
+        <p>&copy; 2024 MD Zayed Al Sajed. All rights reserved.</p>
     </footer>
 </body>
 </html>
